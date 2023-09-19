@@ -48,7 +48,7 @@ int main () {
     scanf( "%d",&N ) ;
 
     for (int i = 0; i < N; i++) {
-        printf ( "Input :" ) ;
+        printf ( "Input :\n" ) ;
         scanf( "%d",&arr[ i ] ) ;
     }
 
@@ -61,8 +61,8 @@ int main () {
             } 
         }
     }
-    
-    printf("Unique values:");
+
+    printf("Unique value :");
     
     for (int i = 0; i < N; i++) {
         int same = 1;
